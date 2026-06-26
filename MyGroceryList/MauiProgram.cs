@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using MyGroceryList.Data;
+using MyGroceryList.ViewModels;
 using System.IO;
 
 namespace MyGroceryList
@@ -12,6 +13,7 @@ namespace MyGroceryList
 
             string dbPath = Path.Combine(FileSystem.AppDataDirectory, "grocery.db3");
             builder.Services.AddSingleton<AppDatabase>(s => new AppDatabase(dbPath));
+            builder.Services.AddSingleton<GroceryListViewModel>();
 
             builder
                 .UseMauiApp<App>()
