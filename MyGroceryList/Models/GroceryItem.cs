@@ -10,5 +10,6 @@ namespace MyGroceryList.Models
         public string Name { get; set; }
         public bool IsCompleted { get; set; }
         public int SortOrder { get; set; }
+
     }
 }
