@@ -81,7 +81,7 @@ This project is designed to strengthen:
 ### Long-Term
 - Full inventory management system  
 - Custom themes  
-- Publish as a Windows desktop application  
+- Publish as an Android mobile application  
 
 ---
 
