@@ -14,7 +14,7 @@ This README will expand as the application grows.
 - C#  
 - .NET Desktop  
 - MVVM Architecture  
-- Visual Studio 2022  
+- Visual Studio 2026 
 
 ---
 
